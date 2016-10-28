@@ -1,0 +1,13 @@
+.nextbtn{
+  text-align: right;
+}
+#button{
+  display: inline;
+}
+img{
+width: 100%;
+}
+.level-container{
+  max-width: 700px;
+  margin: 0 auto;
+}
