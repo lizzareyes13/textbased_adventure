@@ -10,17 +10,18 @@
 <body>
 
 <div class="level-container">
-  <img src="../img/sleeping.jpg" alt="wakingup" />
+  <img src="../img/emptystreets.jpg" alt="empty city streets" />
   <div class="question">
     <p>
-      you wake up after a long time in a hospital, you feel tired and you have no idea what you're doing there
+      you go out into the hall and you encounter a "walker", it tries to eat you but you resist. after you defeat it, you realize that you are the only living being in this hospital. you make a break for it. you carefully exit the hospital and see that most of civilization is gone and you embark on a journey to find someone that might be able to help you.
+
     </p>
     <p>
-      what do you do?
+      To be continued...
     </p>
   </div>
-  <div class="choiceBox">
-    <input  type="radio" name="options" value="0">A. "how did I end up here?".<br>
+  <!-- <div class="choiceBox">
+    <input  type="radio" name="options" value="0">A. contemplate more about why you are there.<br>
     <input  type="radio" name="options" value="1">B. stare at the ceiling.<br>
     <input  type="radio" name="options" value="2">C. go back to sleep.<br>
     <input  type="radio" name="options" value="3">D. get up and see if there is anyone that can can tell you why you are there.<br>
@@ -28,24 +29,28 @@
   <div class="nextbtn">
     <button id="button" name="nextbtn" align="right">NEXT</button>
   </div>
-</div>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-<script type="text/javascript">
-var links = [
-  "A1.html",
-  "B1.html",
-  "B2.html",
-  "D1.html"
-]
+</div> -->
 
-$("button").click(function(){
-  var michelleObama = $("input[name='options']:checked").val();
-  if (!michelleObama){
-    alert("hey! you didn't select anything. you need to select an answer!");
-    return;
-  }
-  window.location = links[michelleObama];
-})
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  // var links = [
+  //   "A1.html",
+  //   "B1.html",
+  //   "C1.html",
+  //   "D1.html"
+  // ]
+  //
+  // $("button").click(function(){
+  //   var michelleObama = $("input[name='options']:checked").val();
+  //   if (!michelleObama){
+  //     alert("hey! you didn't select anything. you need to select an answer!");
+  //     return;
+  //   }
+  //   window.location = links[michelleObama];
+  // })
 </script>
+
 </body>
 </html>

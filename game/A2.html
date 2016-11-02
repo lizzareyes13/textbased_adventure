@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-
 <div class="level-container">
   <img src="../img/bathroom.jpg" alt="bathroom" />
   <div class="question">
@@ -22,25 +21,21 @@
   <div class="choiceBox">
     <input  type="radio" name="options" value="0">A. scope the place and see if there is anyone around that can tell you why you are there.<br>
     <input  type="radio" name="options" value="1">B. go back to bed.<br>
-    <input  type="radio" name="options" value="2">C. nothing, before you could even react a zombie bights into you and lights out. you're dead.<br>
+    <input  type="radio" name="options" value="2">C. nothing. you decide to do nothing.<br>
     <input  type="radio" name="options" value="3">D. you hear something and you go out to the hall to check it out.<br>
   </div>
   <div class="nextbtn">
     <button id="button" name="nextbtn" align="right">NEXT</button>
   </div>
 </div>
-
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
 <script type="text/javascript">
-
   var links = [
-    "A3.html",
-    "B3.html",
+    "D1.html",
+    "B2.html",
     "C3.html",
-    "D3.html"
+    "D1.html"
   ]
-
   $("button").click(function(){
     var michelleObama = $("input[name='options']:checked").val();
     if (!michelleObama){
@@ -50,6 +45,5 @@
     window.location = links[michelleObama];
   })
 </script>
-
 </body>
 </html>
